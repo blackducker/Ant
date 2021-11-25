@@ -1,0 +1,1 @@
+cmd_/home/lyj/zram-orign/zram.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/lyj/zram-orign/zram.ko /home/lyj/zram-orign/zram.o /home/lyj/zram-orign/zram.mod.o ;  true
